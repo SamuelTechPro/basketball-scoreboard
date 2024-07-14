@@ -1,0 +1,79 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.board {
+    width: 700px;
+    height: 500px;
+    background-color: #D6AD60;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-board, .guest-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    margin-bottom: -80px;
+
+}
+
+@font-face {
+    font-family: race-space;
+    src: url(RACESPACEREGULAR.otf);
+}
+
+
+
+h2 {
+    width: 180px;
+    height: 200px;
+    background-color: #122620;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 120px;
+    margin-bottom: 20px;
+    font-family: race-space;
+}
+
+
+span {
+    width: 30px;
+    height: 30px;
+    background-color: #F4EBD0;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: race-space;
+    font-size: 20px;
+}
+
+.guest-board{
+    position: absolute;
+}
+
+.btn{
+    position: relative;
+    top: 50px;
+    left: -280px;
+}
+
+#main-guest{
+    margin-right: 100px;
+}
